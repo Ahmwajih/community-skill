@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btnSignin {
+    background-color: #618ECA;
+    color: white;
+    
+}
+
+.btnSignin:hover {
+    background-color: #618ECA;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .cardContainer {
+        padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  
+    }
+    
+}
